@@ -3,9 +3,8 @@ import random
 import sys
 import argparse
 
-cc = random.random()
-print(cc)
 def getClicked(rate):
+        cc = random.random()
         if cc <= rate:
                 return True
 
